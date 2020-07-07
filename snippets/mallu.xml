@@ -7,9 +7,9 @@
   <project path="frameworks/base" name="MalluOS/android_frameworks_base" remote="gith" revision="thegga-10" />
   <project path="lineage-sdk" name="MalluOS/android_lineage-sdk" remote="gith" revision="thegga-10"/>
   <project path="vendor/lineage" name="MalluOS/android_vendor_lineage" remote="gith" revision="thegga-10"/>
-
-  <!-- Overlay -->
-  <project path="vendor/overlays" name="MalluOS/android_vendor_overlays" remote="gith" revision="thegga-10" />  
+  <project path="packages/apps/SetupWizard" name="MalluOS/android_packages_apps_SetupWizard" remote="gith" revision="thegga-10" />
+  <!-- Overlay 
+  <project path="vendor/overlays" name="MalluOS/android_vendor_overlays" remote="gith" revision="thegga-10" />  -->
 
   <!-- Asus App -->
   <project path="external/asus/stitchimage" name="MalluOS/android_external_asus_stitchimage" remote="gith" revision="thegga-10" />
