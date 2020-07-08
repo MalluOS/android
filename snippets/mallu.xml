@@ -10,6 +10,11 @@
   <project path="packages/apps/SetupWizard" name="MalluOS/android_packages_apps_SetupWizard" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Settings" name="MalluOS/android_packages_apps_Settings" remote="gith" revision="thegga-10" />
 
+  <!-- Clang 10 version 10.0.6 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="gith" revision="thegga-10" clone-depth="1" />
+  <!-- Clang 11 version 11.0.3 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="gith" revision="thegga-10" clone-depth="1" />
+
   <!-- Overlay 
   <project path="vendor/overlays" name="MalluOS/android_vendor_overlays" remote="gith" revision="thegga-10" />  -->
 
