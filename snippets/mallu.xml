@@ -3,15 +3,16 @@
 
   <!-- LineageOS additions -->
   <project path="frameworks/native" name="MalluOS/android_frameworks_native" remote="gith" revision="thegga-10" />
+  <project path="frameworks/opt/telephony" name="MalluOS/android_frameworks_opt_telephony" remote="gith" revision="thegga-10" />
   <project path="frameworks/base" name="MalluOS/android_frameworks_base" remote="gith" revision="thegga-10" />
   <project path="lineage-sdk" name="MalluOS/android_lineage-sdk" remote="gith" revision="thegga-10"/>
-  <project path="vendor/lineage" name="MalluOS/android_vendor_lineage" remote="gith" revision="thegga-10"/>
+  <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="thegga-10" />
   <project path="packages/apps/ParanoidLauncher" name="MalluOS/android_packages_apps_ParanoidLauncher" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Phonograph" name="MalluOS/android_packages_apps_Phonograph" remote="gith" revision="thegga-10" />
   <project path="packages/apps/SetupWizard" name="MalluOS/android_packages_apps_SetupWizard" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Settings" name="MalluOS/android_packages_apps_Settings" remote="gith" revision="thegga-10" />
   <project path="packages/services/Telephony" name="MalluOS/android_packages_services_Telephony" remote="gith" revision="thegga-10" />
-  <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="thegga-10" />
+  <project path="vendor/lineage" name="MalluOS/android_vendor_lineage" remote="gith" revision="thegga-10"/>
 
   <!-- Clang 10 version 10.0.6 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="gith" revision="thegga-10" clone-depth="1" />
