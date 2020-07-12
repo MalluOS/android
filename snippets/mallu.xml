@@ -2,10 +2,17 @@
 <manifest>
 
   <!-- LineageOS additions -->
+  <project path="device/lineage/sepolicy" name="MalluOS/android_device_lineage_sepolicy" remote="gith" revision="thegga-10" />
   <project path="frameworks/native" name="MalluOS/android_frameworks_native" remote="gith" revision="thegga-10" />
   <project path="frameworks/opt/telephony" name="MalluOS/android_frameworks_opt_telephony" remote="gith" revision="thegga-10" />
   <project path="frameworks/base" name="MalluOS/android_frameworks_base" remote="gith" revision="thegga-10" />
   <project path="lineage-sdk" name="MalluOS/android_lineage-sdk" remote="gith" revision="thegga-10"/>
+  <project path="packages/apps/Backgrounds" name="MalluOS/android_packages_apps_Backgrounds" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/Browser" name="MalluOS/android_packages_apps_Browser" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/DeskClock" name="MalluOS/android_packages_apps_DeskClock" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/ExactCalculator" name="MalluOS/android_packages_apps_ExactCalculator" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/Calendar" name="MalluOS/android_packages_apps_Calendar" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/Gallery2" name="MalluOS/android_packages_apps_Gallery2" remote="gith" revision="thegga-10" />
   <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="thegga-10" />
   <project path="packages/apps/ParanoidLauncher" name="MalluOS/android_packages_apps_ParanoidLauncher" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Phonograph" name="MalluOS/android_packages_apps_Phonograph" remote="gith" revision="thegga-10" />
