@@ -14,6 +14,7 @@
   <project path="packages/apps/Calendar" name="MalluOS/android_packages_apps_Calendar" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Gallery2" name="MalluOS/android_packages_apps_Gallery2" remote="gith" revision="thegga-10" />
   <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/Messaging" name="MalluOS/android_packages_apps_Messaging" remote="gith" revision="thegga-10" />
   <project path="packages/apps/ParanoidLauncher" name="MalluOS/android_packages_apps_ParanoidLauncher" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Phonograph" name="MalluOS/android_packages_apps_Phonograph" remote="gith" revision="thegga-10" />
   <project path="packages/apps/SetupWizard" name="MalluOS/android_packages_apps_SetupWizard" remote="gith" revision="thegga-10" />
