@@ -17,6 +17,7 @@
   <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Messaging" name="MalluOS/android_packages_apps_Messaging" remote="gith" revision="thegga-10" />
   <project path="packages/apps/ParanoidLauncher" name="MalluOS/android_packages_apps_ParanoidLauncher" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/Recorder" name="MalluOS/android_packages_apps_Recorder" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Phonograph" name="MalluOS/android_packages_apps_Phonograph" remote="gith" revision="thegga-10" />
   <project path="packages/apps/SetupWizard" name="MalluOS/android_packages_apps_SetupWizard" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Settings" name="MalluOS/android_packages_apps_Settings" remote="gith" revision="thegga-10" />
