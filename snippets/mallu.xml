@@ -4,6 +4,7 @@
   <!-- LineageOS additions -->
   <project path="device/lineage/sepolicy" name="MalluOS/android_device_lineage_sepolicy" remote="gith" revision="thegga-10" />
   <project path="external/airbnb-lottie" name="MalluOS/android_external_airbnb-lottie" remote="gith" revision="thegga-10" />
+  <project path="external/gptfdisk" name="MalluOS/android_external_gptfdisk" remote="gith" revision="thegga-10" />
   <project path="frameworks/av" name="MalluOS/android_frameworks_av" remote="gith" revision="thegga-10" />
   <project path="frameworks/native" name="MalluOS/android_frameworks_native" remote="gith" revision="thegga-10" />
   <project path="frameworks/opt/telephony" name="MalluOS/android_frameworks_opt_telephony" remote="gith" revision="thegga-10" />
