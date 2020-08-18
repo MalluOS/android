@@ -5,6 +5,7 @@
   <project path="device/lineage/sepolicy" name="MalluOS/android_device_lineage_sepolicy" remote="gith" revision="thegga-10" />
   <project path="external/airbnb-lottie" name="MalluOS/android_external_airbnb-lottie" remote="gith" revision="thegga-10" />
   <project path="external/gptfdisk" name="MalluOS/android_external_gptfdisk" remote="gith" revision="thegga-10" />
+  <project path="external/utils" name="MalluOS/android_external_utils" remote="gitl" revision="thegga-10" />
   <project path="frameworks/av" name="MalluOS/android_frameworks_av" remote="gith" revision="thegga-10" />
   <project path="frameworks/native" name="MalluOS/android_frameworks_native" remote="gith" revision="thegga-10" />
   <project path="frameworks/opt/telephony" name="MalluOS/android_frameworks_opt_telephony" remote="gith" revision="thegga-10" />
@@ -34,8 +35,5 @@
   <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="gith" revision="thegga-10" clone-depth="1" />
   <!-- Clang 11 version 11.0.3 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="gith" revision="thegga-10" clone-depth="1" />
-
-  <!-- Overlay 
-  <project path="vendor/overlays" name="MalluOS/android_vendor_overlays" remote="gith" revision="thegga-10" />  -->
 
 </manifest>

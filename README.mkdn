@@ -11,3 +11,16 @@ Then to sync up:
 repo sync
 ```
 
+===========
+
+Additional Features (Run in root of Rom folder) - Needed in each sync
+
+## Face Recognition
+
+`bash external/utils/regenerate/faceunlock.sh` 
+
+## AOSP-WFD (For Legacy-devices)
+
+`bash external/utils/regenerate/aosp-wfd.sh`
+
+
