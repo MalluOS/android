@@ -35,5 +35,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="gith" revision="thegga-10" clone-depth="1" />
   <!-- Clang 11 version 11.0.3 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="gith" revision="thegga-10" clone-depth="1" />
-
+  <!-- Clang 11 version 11.0.4 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6778096" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6778096" remote="gith" revision="thegga-10" clone-depth="1" />
 </manifest>
