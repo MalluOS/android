@@ -12,14 +12,15 @@
   <project path="frameworks/base" name="MalluOS/android_frameworks_base" remote="gith" revision="thegga-10" />
   <project path="lineage-sdk" name="MalluOS/android_lineage-sdk" remote="gith" revision="thegga-10"/>
   <project path="packages/apps/Backgrounds" name="MalluOS/android_packages_apps_Backgrounds" remote="gith" revision="thegga-10" />
-  <project path="packages/apps/Browser" name="MalluOS/android_packages_apps_Browser" remote="gith" revision="thegga-10" />
   <project path="packages/apps/DeskClock" name="MalluOS/android_packages_apps_DeskClock" remote="gith" revision="thegga-10" />
   <project path="packages/apps/ExactCalculator" name="MalluOS/android_packages_apps_ExactCalculator" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Calendar" name="MalluOS/android_packages_apps_Calendar" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Gallery2" name="MalluOS/android_packages_apps_Gallery2" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/googlecameramod" name="MalluOS/android_packages_apps_googlecameramod" remote="gith" revision="thegga-10" />
   <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="thegga-10" />
   <project path="packages/apps/MalluOSSettings" name="MalluOS/android_packages_apps_MalluOSSettings" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Messaging" name="MalluOS/android_packages_apps_Messaging" remote="gith" revision="thegga-10" />
+  <project path="packages/apps/OmniStyle" name="MalluOS/android_packages_apps_OmniStyle" remote="gith" revision="thegga-10" />
   <project path="packages/apps/ParanoidLauncher" name="MalluOS/android_packages_apps_ParanoidLauncher" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Recorder" name="MalluOS/android_packages_apps_Recorder" remote="gith" revision="thegga-10" />
   <project path="packages/apps/Phonograph" name="MalluOS/android_packages_apps_Phonograph" remote="gith" revision="thegga-10" />
@@ -30,6 +31,9 @@
   <project path="system/core" name="MalluOS/android_system_core" remote="gith" revision="thegga-10" />
   <project path="vendor/lineage" name="MalluOS/android_vendor_lineage" remote="gith" revision="thegga-10"/>
   <project path="vendor/overlays" name="MalluOS/android_vendor_overlays" remote="gith" revision="thegga-10"/>
+
+  <project path="OTA_update" name="MalluOS/OTA_update" remote="gith" revision="thegga-10"/>
+
 
   <!-- Clang 10 version 10.0.6 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="MalluOS/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="gith" revision="thegga-10" clone-depth="1" />
