@@ -26,7 +26,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" >
+  <project path="build/make" name="MalluOS/android_build" remote="gith" revision="elaneer-11" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -35,14 +35,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/blueprint" name="MalluOS/android_build_blueprint" remote="gith" revision="elaneer-11" />
+  <project path="build/soong" name="MalluOS/android_build_soong" remote="gith" revision="elaneer-11" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
+  <project path="art" name="MalluOS/android_art" remote="gith" revision="elaneer-11" />
+  <project path="bionic" name="MalluOS/android_bionic" remote="gith" revision="elaneer-11" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -394,7 +393,6 @@
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" remote="aosp" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
@@ -429,8 +427,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="aosp" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" name="MalluOS/android_frameworks_av" remote="gith" revision="elaneer-11" />
+  <project path="frameworks/base" name="MalluOS/android_frameworks_base" remote="gith" revision="elaneer-11" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -444,7 +442,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="MalluOS/android_frameworks_native" remote="gith" revision="elaneer-11" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" remote="aosp" />
@@ -458,7 +456,7 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" remote="aosp" />
+  <project path="frameworks/opt/telephony" name="MalluOS/android_frameworks_opt_telephony" remote="gith" revision="elaneer-11" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -476,8 +474,8 @@
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" remote="aosp" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" name="MalluOS/android_hardware_libhardware" remote="gith" revision="elaneer-11" />
+  <project path="hardware/libhardware_legacy" name="MalluOS/android_hardware_libhardware_legacy" remote="gith" revision="elaneer-11" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" remote="aosp" />
@@ -518,7 +516,6 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150p/Android.bp" />
   </project>
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="aosp" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
@@ -530,8 +527,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/CompanionDeviceSupport" name="platform/packages/apps/Car/CompanionDeviceSupport" groups="pdk-fs" remote="aosp" />
@@ -573,14 +568,14 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Settings" name="MalluOS/android_packages_apps_Settings" remote="gith" revision="elaneer-11" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" remote="aosp" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
-  <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="MalluOS/android_packages_apps_ThemePicker" remote="gith" revision="elaneer-11" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" />
@@ -620,7 +615,7 @@
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mtp" name="platform/packages/services/Mtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/services/Telephony" name="MalluOS/android_packages_services_Telephony" remote="gith" revision="elaneer-11" />
   <project path="packages/wallpapers/ImageWallpaper" name="platform/packages/wallpapers/ImageWallpaper" groups="pdk-fs" remote="aosp" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
@@ -680,14 +675,14 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="LineageOS/android_system_apex" groups="pdk" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
+  <project path="system/bt" name="MalluOS/android_system_bt" remote="gith" revision="elaneer-11" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" remote="aosp" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="MalluOS/android_system_core" remote="gith" revision="elaneer-11" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
@@ -725,7 +720,7 @@
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
+  <project path="system/vold" name="MalluOS/android_system_vold" remote="gith" revision="elaneer-11" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" remote="aosp" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" groups="pdk" remote="aosp" />
@@ -762,7 +757,7 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" remote="aosp" />
-  <project path="tools/metalava" name="LineageOS/android_tools_metalava" groups="pdk,tools" />
+  <project path="tools/metalava" name="MalluOS/android_tools_metalava" remote="gith" revision="elaneer-11" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" />
   <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" remote="aosp" />
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" remote="aosp" />
