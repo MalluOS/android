@@ -31,8 +31,4 @@
   <!-- ARM Developer GCC 8.3 kernel toolchain -->
   <project name="MalluOS/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-8.3" remote="gith" revision="elaneer-11" />
 
-  <!-- GCC Host Toolchain from AOSP Q -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" revision="refs/tags/android-10.0.0_r45" />
-
 </manifest>
