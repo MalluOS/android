@@ -11,6 +11,8 @@
   <project path="hardware/qcom-caf/thermal" name="MalluOS/android_hardware_qcom_thermal" remote="gith" revision="elaneer-11" />
   <project path="hardware/qcom-caf/vr" name="MalluOS/android_hardware_qcom_vr" remote="gith" revision="elaneer-11" />
   <project path="hardware/qcom-caf/wlan" name="MalluOS/android_hardware_qcom_wlan" remote="gith" revision="elaneer-11-caf" />
+  <project path="hardware/qcom-caf/msm8916/display" name="MalluOS/android_hardware_qcom_display" remote="gith" revision="elaneer-11-8916-caf" />
+  <project path="hardware/qcom-caf/msm8916/media" name="MalluOS/android_hardware_qcom_media" remote="gith" revision="elaneer-11-8916-caf" />
 
   <project path="lineage-sdk" name="MalluOS/android_lineage-sdk" remote="gith" revision="elaneer-11" />
 
