@@ -26,6 +26,7 @@
   <project path="vendor/codeaurora/telephony" name="MalluOS/android_vendor_codeaurora_telephony" remote="gith" revision="elaneer-11" />
 
   <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="elaneer-11" />
+  <project path="packages/apps/Eleven" name="MalluOS/android_packages_apps_Eleven" remote="gith" revision="elaneer-11" />
   <project path="packages/apps/Etar" name="MalluOS/android_packages_apps_Etar" remote="gith" revision="elaneer-11" />
   <project path="packages/apps/Jelly" name="MalluOS/android_packages_apps_Jelly" remote="gith" revision="elaneer-11" />
   <project path="packages/apps/Snap" name="MalluOS/android_packages_apps_Snap" remote="gith" revision="elaneer-11" />
