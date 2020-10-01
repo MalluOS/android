@@ -4,7 +4,6 @@
   <project path="external/airbnb-lottie" name="MalluOS/android_external_airbnb-lottie" remote="gith" revision="elaneer-11" />
   <project path="external/connectivity" name="MalluOS/android_external_connectivity" remote="gith" revision="elaneer-11" />
   <project path="external/tinycompress" name="MalluOS/android_external_tinycompress" remote="gith" revision="elaneer-11" />
-  <project path="external/sony/boringssl-compat" name="MalluOS/android_external_sony_boringssl-compat" remote="gith" revision="elaneer-11" />
   <project path="bootable/recovery" name="MalluOS/android_bootable_recovery" remote="gith" revision="elaneer-11" />
   <project path="hardware/ril" name="MalluOS/android_hardware_ril" remote="gith" revision="elaneer-11" />
   <project path="hardware/qcom-caf/bt" name="MalluOS/android_hardware_qcom_bt" remote="gith" revision="elaneer-11" />
@@ -26,15 +25,12 @@
   <project path="vendor/codeaurora/telephony" name="MalluOS/android_vendor_codeaurora_telephony" remote="gith" revision="elaneer-11" />
 
   <project path="packages/apps/LineageParts" name="MalluOS/android_packages_apps_LineageParts" remote="gith" revision="elaneer-11" />
-  <project path="packages/apps/Eleven" name="MalluOS/android_packages_apps_Eleven" remote="gith" revision="elaneer-11" />
+  <!--<project path="packages/apps/Eleven" name="MalluOS/android_packages_apps_Eleven" remote="gith" revision="elaneer-11" />-->
   <project path="packages/apps/Etar" name="MalluOS/android_packages_apps_Etar" remote="gith" revision="elaneer-11" />
-  <project path="packages/apps/Jelly" name="MalluOS/android_packages_apps_Jelly" remote="gith" revision="elaneer-11" />
+  <!--<project path="packages/apps/Jelly" name="MalluOS/android_packages_apps_Jelly" remote="gith" revision="elaneer-11" />-->
   <!--<project path="packages/apps/Snap" name="MalluOS/android_packages_apps_Snap" remote="gith" revision="elaneer-11" />-->
   <project path="packages/apps/Trebuchet" name="MalluOS/android_packages_apps_Trebuchet" remote="gith" revision="elaneer-11" />
   
   <project path="system/tools/mkbootimg" name="MalluOS/android_system_tools_mkbootimg" remote="gith" revision="elaneer-11" />
-
-  <!-- ARM Developer GCC 8.3 kernel toolchain -->
-  <project name="MalluOS/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-8.3" remote="gith" revision="elaneer-11" />
 
 </manifest>
