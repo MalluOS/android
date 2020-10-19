@@ -4,7 +4,7 @@ MalluOS (With ♡ from Gods own country)
 
 To initialize your local repository using the MalluOS trees, use a command like this:
 ```
-repo init -u git://github.com/MalluOS/android.git -b elaneer-11
+repo init -u https://github.com/MalluOS/android.git -b elaneer-11
 ```
 Then to sync up:
 ```
