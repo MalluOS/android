@@ -4,7 +4,7 @@
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <!--<project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />-->
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <project path="device/lineage/sepolicy" name="MalluOS/android_device_lineage_sepolicy" remote="github" revision="elaneer-11" />
   <project path="external/airbnb-lottie" name="MalluOS/android_external_airbnb-lottie" remote="github" revision="elaneer-11" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
