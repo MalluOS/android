@@ -22,7 +22,7 @@
   <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="MalluOS/android_lineage-sdk" remote="github" revision="elaneer-11" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <!--<project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />-->
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
@@ -41,11 +41,11 @@
   <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <!--<project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" />-->
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="MalluOS/android_packages_apps_Updater" remote="github" revision="elaneer-11" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
-  <project path="vendor/lineage" name="MalluOS/android_vendor_lineage" remote="github" revision="elaneer-11" />
+  <project path="vendor/lineage" name="MalluOS/android_vendor_malluos" remote="github" revision="elaneer-11" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
